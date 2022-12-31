@@ -6,6 +6,7 @@ import { WorkPage } from './pages/WorkPage';
 import { AboutPage } from './pages/AboutPage'
 import { SpotifyTinderPage } from './pages/projects/SpotifyTinderPage';
 import { ConstructionPage } from './pages/ConstructionPage';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/construction' element={<ConstructionPage/>}/>
         <Route path='/spotify-tinder' element={<SpotifyTinderPage/>}/>
       </Routes>
+      <Footer/>
     </div>
 
 

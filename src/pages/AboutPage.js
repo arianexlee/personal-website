@@ -1,3 +1,5 @@
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 import pfp from '../imgs/pfp.png'
 import stanfordEVGR from '../imgs/stanford-evgr.png'
 import oval from '../imgs/oval.png'
@@ -117,7 +119,7 @@ export function AboutPage() {
                     <h1 className= 'mb-4 font-chivo text-base py-2 border-b-[1px] border-black'>
                     @ HOME
                     </h1>
-                    <div className= 'flex flex-col md:flex-row md:space-x-10 mb-10'>
+                    <div className= 'flex flex-col space-y-10 md:space-y-0 md:flex-row md:space-x-10 mb-10'>
                         <div className='space-y-3 font-sans'>
                             <div>
                                 <h1 className='font-chivo text-base'>HOME</h1>
