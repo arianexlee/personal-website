@@ -13,7 +13,7 @@ export function WorkPage() {
             tags={['App Dev', 'UI/UX Design']}
             company= 'Project'
             img= {spotifyTinder}
-            projectPage = '/spotify-tinder'
+            projectPage = '/construction'
             />
           <ProjectCard
             id= '2'
@@ -22,10 +22,10 @@ export function WorkPage() {
             tags={['UI/UX Design', 'Branding']}
             company= 'Internship'
             img= {fizzCard}
-            projectPage = '/spotify-tinder'
+            projectPage = '/construction'
           />
         </div>
-        <div className= 'flex flex-col space-y-10 mb-[60px] md:flex-row md:space-x-20 md:space-y-0'>
+        {/* <div className= 'flex flex-col space-y-10 mb-[60px] md:flex-row md:space-x-20 md:space-y-0'>
           <ProjectCard
             id= '3'
             color= '#FFEC42'
@@ -44,7 +44,7 @@ export function WorkPage() {
             img= {spotifyTinder}
             projectPage = '/spotify-tinder'
             />
-        </div>
+        </div> */}
       </div>
     )
 }

@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import { WorkPage } from './pages/WorkPage';
 import { AboutPage } from './pages/AboutPage'
 import { SpotifyTinderPage } from './pages/projects/SpotifyTinderPage';
-
+import { ConstructionPage } from './pages/ConstructionPage';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route path='/' element={<WorkPage/>}/>
         <Route path='/resume' element={<div></div>}/>
         <Route path='/about' element={<AboutPage/>}/>
+        <Route path='/construction' element={<ConstructionPage/>}/>
         <Route path='/spotify-tinder' element={<SpotifyTinderPage/>}/>
       </Routes>
     </div>
