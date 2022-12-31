@@ -62,26 +62,26 @@ export function AboutPage() {
                             a front-end developer for <span className='underline'><a href="https://carta-beta.stanford.edu/" target="_blank">Carta</a></span>
                             </span>
                             , Stanford’s official course planning and reviewing platform, 
-                            used by 95% of Stanford undergrads
+                            used by 95% of Stanford undergrads.
                         </p>
                         <p>
                             <span className= 'font-chivo font-black'>
                             a designer for <span className='underline'><a href="https://www.treehacks.com/" target="_blank">TreeHacks</a></span>
                             </span>
-                            , Stanford’s premier hackathon with over 2,000+ participants and $250k in prizes.
+                            , Stanford’s premier hackathon with over 1,000+ participants and $100k in prizes.
                         </p>
                         <p>
                             <span className= 'font-chivo font-black'>
                             a consultant for <span className='underline'><a href="http://www.stanfordmarketing.org/" target="_blank">Stanford Marketing</a></span>
                             </span>
-                            , where I've served clients like BeReal, Typed, and Hilton.
+                            , where I've served clients like <a className='underline' href='https://bere.al/en'>BeReal</a>, <a className='underline' href='https://typed.do/'>Typed</a>, and <a className='underline' href='https://www.hilton.com/en/'>Hilton</a>.
                         </p>
                         <p>
                             a member of 
                             <span className='font-chivo font-black underline ml-[5px]'><a href="https://www.stanfordwomenincomputerscience.com/" target="_blank">Stanford Women in CS</a></span>, 
                             <span className='font-chivo font-black underline ml-[5px]'><a href="https://stanfordwomenindesign.com/" target="_blank">Stanford Women in Design</a></span>, 
                             and 
-                            <span className='font-chivo font-black ml-[5px]'>Kappa Alpha Theta</span>                        </p>
+                            <span className='font-chivo font-black ml-[5px]'>Kappa Alpha Theta</span>.                        </p>
                     </div>
                     <div className= ''>
                         <img src={stanfordEVGR} className='max-h-[480px] items-center object-contain'/>
