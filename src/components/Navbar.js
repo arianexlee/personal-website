@@ -6,7 +6,7 @@ export function Navbar() {
     return(
         <div className= "bg-white flex-1 flex flex-col sticky top-0 items-center bg-teal px-[110px] py-[48px] text-lg md:flex-row text-2xl md:justify-between">
             <div className= " logo">
-                <h1 className= 'font-chivo'>ARIANE</h1>
+                <h1 className= 'font-chivo'><a href= "/">ARIANE</a></h1>
             </div>
             <div className= " navlinks">
                 <ul className= "flex flex-row font-chivo space-x-[16px] md:space-x-[32px] text-lg md:text-2xl">
