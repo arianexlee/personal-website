@@ -9,8 +9,8 @@ export function Footer(){
                 <p className='text-sm italic'>This website was made with React</p>
             </div>
             <div className='space-x-4'>
-                <SocialIcon style={{width: '40px', height: '40px'}} bgColor='black' url="https://www.linkedin.com/in/ariane-lee-8b95ba192/"/>
-                <SocialIcon style={{width: '40px', height: '40px'}} bgColor='black' url="https://github.com/arianexlee"/>
+                <SocialIcon target='_blank' style={{width: '40px', height: '40px'}} bgColor='black' url="https://www.linkedin.com/in/ariane-lee-8b95ba192/"/>
+                <SocialIcon target='_blank' style={{width: '40px', height: '40px'}} bgColor='black' url="https://github.com/arianexlee"/>
             </div>
         </div> 
     )
