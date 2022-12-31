@@ -95,7 +95,7 @@ export function AboutPage() {
                             <p classname='text-2xl'>CS 124: From Languages to Information (NLP)</p>
                             <p classname='text-2xl'>PWR 2KSB: Design Thinking</p>
                             <p classname='text-2xl'>POLISCI 330A: Origins of Political Thought</p>
-                            <p classname='text-2xl'>ChinLang 22B: 2nd Year Chinese for Bilingual Studentss</p>
+                            <p classname='text-2xl'>ChinLang 22B: 2nd Year Chinese for Bilingual Students</p>
                         </div>
                         <div>
                             <h1 className='font-chivo text-base'>PAST RELEVANT COURSEWORK</h1>
