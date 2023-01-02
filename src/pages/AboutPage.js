@@ -11,6 +11,7 @@ import greed from '../imgs/greed.png'
 import apple from '../imgs/apple.png'
 
 export function AboutPage() {
+
     return (
         <div className= 'flex flex-col items-center mx-[50px] md:mx-[110px] mb-[60px] space-y-10'>
             <div className= 'flex flex-col space-y-10 md:w-[680px] md:flex-row md:space-x-10 md:space-y-0 md:items-end'>

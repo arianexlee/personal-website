@@ -17,7 +17,6 @@ export function ProjectCard(props) {
         </div>
         )
     })
-    console.log("Img", props.img)
     return (
         <div onClick={routeChange}>
             <div className="h-[300px] w-[300px] rounded-lg border-2 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]
