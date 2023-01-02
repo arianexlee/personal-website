@@ -23,7 +23,10 @@ export function AboutPage() {
                         </h1>
                         <div>
                         <h1 className= 'font-sans text-2xl'>I'm a developer and designer studying
-                        <span className= 'text-2xl font-chivo font-black'> Computer Science @ Stanford University</span></h1>
+                        <span className= 'text-2xl font-chivo font-black'> Computer Science @ Stanford University</span>. 
+                        I'm also a <span className= 'underline text-2xl font-chivo font-black'><a href='https://fellows.kleinerperkins.com/' target='_blank'>
+                        Kleiner Perkins Fellow</a></span>.</h1>
+                        
                         </div>
                     </div>
                     <div className='space-y-3 font-sans'>
@@ -35,10 +38,10 @@ export function AboutPage() {
                             <h1 className= 'font-chivo text-base'>CURRENTLY READING</h1>
                             <h1 classname= 'text-2xl'>Why the West Rules...For Now by Ian Morris</h1>
                         </div>
-                        <div>
+                        {/* <div>
                             <h1 className='font-chivo text-base'>CURRENT FAVORITE PAINTING</h1>
                             <h2 classname='text-base'>May 1808 by Francisco de Goya</h2>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
