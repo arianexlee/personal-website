@@ -1,6 +1,8 @@
 import { ProjectCard } from '../components/ProjectCard';
 import spotifyTinder from '../imgs/spotify-tinder-mockup.png'
 import fizzCard from '../imgs/fizz-card.png'
+import carta from '../imgs/carta-redesign.png'
+import voiceMessage from '../imgs/voice-imessage.png'
 
 export function WorkPage() {
     return (
@@ -22,6 +24,26 @@ export function WorkPage() {
             tags={['UI/UX Design', 'Branding']}
             company= 'Internship'
             img= {fizzCard}
+            projectPage = '/construction'
+          />
+        </div>
+        <div className= 'flex flex-col space-y-10 md:flex-row md:space-x-20 md:space-y-0'>
+          <ProjectCard
+            id= '3'
+            color= '#FFEC42'
+            title= 'Carta Redesign'
+            tags={['Web Dev', 'UI/UX Design']}
+            company= 'Project'
+            img= {carta}
+            projectPage = '/construction'
+            />
+          <ProjectCard
+            id= '4'
+            color= '#84E7D6'
+            title= 'Voice iMessage Redesign'
+            tags={['UI/UX Design']}
+            company= 'Project'
+            img= {voiceMessage}
             projectPage = '/construction'
           />
         </div>
